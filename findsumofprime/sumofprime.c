@@ -3,13 +3,9 @@
 #include<math.h>
 #define N 4000000
 int main() {
-
     long int max, n, multiply;
-
     static long int a[N];
-
     scanf("%lld", &max);
-
     for (long int i = 0;i < max; i++) {
         a[i] = i + 1;
     }
