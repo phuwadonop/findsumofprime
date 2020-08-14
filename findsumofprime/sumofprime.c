@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<math.h>
-#define N 4000000
+#define N 2000000
 int main() {
     long int max, n, multiply;
     static long int a[N];
